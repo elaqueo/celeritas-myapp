@@ -9,6 +9,7 @@ require (
 	github.com/elaqueo/celeritas v0.0.0-00010101000000-000000000000
 	github.com/go-chi/chi/v5 v5.0.5
 	github.com/upper/db/v4 v4.2.1
+	golang.org/x/crypto v0.0.0-20211108221036-ceb1ce70b4fa
 )
 
 require (
@@ -25,6 +26,5 @@ require (
 	github.com/jackc/pgx/v4 v4.13.0 // indirect
 	github.com/joho/godotenv v1.4.0 // indirect
 	github.com/lib/pq v1.10.2 // indirect
-	golang.org/x/crypto v0.0.0-20211108221036-ceb1ce70b4fa // indirect
 	golang.org/x/text v0.3.6 // indirect
 )
