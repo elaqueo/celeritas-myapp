@@ -16,7 +16,7 @@
             />
             <h1>Celeritas</h1>
             <hr />
-            <small class="text-muted">This value came from the session:</small>
+            <small class="text-muted">This value came from the session: {{foo}}</small>
         </div>
     </div>
 </div>
