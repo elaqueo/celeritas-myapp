@@ -1,3 +1,6 @@
 /tmp
+/db-data/postgres
+/db-data/mariadb
+/db-data/redis
 
 .env
