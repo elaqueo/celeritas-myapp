@@ -30,3 +30,12 @@ func (h *Handlers) JetPage(w http.ResponseWriter, r *http.Request) {
 		h.App.ErrorLog.Println("error rendering:", err)
 	}
 }
+
+func (h *Handlers) SessionsTest(w http.ResponseWriter, r *http.Request) {
+	myData := "foo"
+	h.App.Session.Put(r.Context(), "bar", myData)
+	err := h.App.Render.JetPage(w, r, "sessions", nil, nil)
+	if err != nil {
+		h.App.ErrorLog.Println("error rendering:", err)
+	}
+}
