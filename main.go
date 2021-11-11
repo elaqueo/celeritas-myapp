@@ -1,9 +1,14 @@
 package main
 
-import "github.com/elaqueo/celeritas"
+import (
+	"myapp/handlers"
+
+	"github.com/elaqueo/celeritas"
+)
 
 type application struct {
-	App *celeritas.Celeritas
+	App      *celeritas.Celeritas
+	Handlers *handlers.Handlers
 }
 
 func main() {
