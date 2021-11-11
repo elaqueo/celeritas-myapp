@@ -17,6 +17,9 @@
             <h1>Celeritas</h1>
             <hr />
             <small class="text-muted"> Go build something awesome </small>
+            {{ if .IsAuthenticated }}
+            <small><a href="/users/logout">Logout</a></small>
+            {{ end }}
         </div>
     </div>
     <hr />
@@ -32,6 +35,9 @@
         </a>
         <a href="/sessions" class="list-group-item list-group-item-action">
             Try Sessions
+        </a>
+        <a href="/users/login" class="list-group-item list-group-item-action">
+            Login
         </a>
     </div>
 </div>
