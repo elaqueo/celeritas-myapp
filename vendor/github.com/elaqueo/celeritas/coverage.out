@@ -1,4 +1,12 @@
 mode: set
+github.com/elaqueo/celeritas/session/session.go:21.53,26.16 3 1
+github.com/elaqueo/celeritas/session/session.go:31.2,46.40 10 1
+github.com/elaqueo/celeritas/session/session.go:54.2,54.16 1 1
+github.com/elaqueo/celeritas/session/session.go:26.16,28.3 1 0
+github.com/elaqueo/celeritas/session/session.go:47.15,47.15 0 0
+github.com/elaqueo/celeritas/session/session.go:48.26,48.26 0 0
+github.com/elaqueo/celeritas/session/session.go:49.32,49.32 0 0
+github.com/elaqueo/celeritas/session/session.go:50.10,50.10 0 1
 github.com/elaqueo/celeritas/render/render.go:35.111,36.37 1 1
 github.com/elaqueo/celeritas/render/render.go:45.2,45.52 1 1
 github.com/elaqueo/celeritas/render/render.go:37.12,38.36 1 1
