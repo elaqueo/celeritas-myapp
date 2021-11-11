@@ -12,7 +12,7 @@ import (
 type User struct {
 	ID        int       `db:"id,omitempty"`
 	FirstName string    `db:"first_name"`
-	LatstName string    `db:"last_name"`
+	LastName  string    `db:"last_name"`
 	Email     string    `db:"email"`
 	Active    int       `db:"user_active"`
 	Password  string    `db:"password"`
